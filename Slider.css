@@ -1,0 +1,39 @@
+   #slide{
+    /* parametro obbligatorio */
+    overflow:hidden;
+    /* qui potete personalizzare la dimensione , la posizione e l'aspetto */
+    width:1320px;height:350px;
+    position:relative;
+    top:17.5%;left:7%;
+    background:white;
+    box-shadow: 0px 0px 5px 3px rgba(125, 62, 140, 1);
+   }
+
+   #slide p{
+    /* qui potete personalizzare il testo */
+    font-family: Corbel, sans-serif;
+    font-size:130%;
+    text-align:center;
+    position:relative;
+    width: auto;
+    max-width: 33%;
+    min-width:100px;
+    height:auto;
+    min-height: 20px;
+    top:75%;left:55px;
+    padding:0px;
+    background:rgba(20,20,20,0.5);
+    color: #dfdfdf;
+    /* parametro obbligatorio */
+    opacity:0;
+   }
+
+   /* gli stili definiti qui di seguito non devono essere modificati ! */
+   #slide img{
+    width:100%;height:100%;
+    position:absolute;
+    top:0px;left:0px;
+   }
+   #slide p{
+    opacity:1;
+   }
