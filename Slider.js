@@ -63,10 +63,10 @@ function cambiaSlide(x,n,stato,t,txt){
 function fotografie(x,n){
          var foto = new Array(n);
          /* scrivere il path ed il nome delle foto che volere usare */
-         foto[0] = "CoronaNera.jpg";
-         foto[1] = "Memedesimo.jpg";
-         foto[2] = "Parchment.jpg";
-         foto[3] = "Logo.png";
+         foto[0] = "Personaggi.jpg";
+         foto[1] = "ChiSono.jpg";
+         foto[2] = "Leggende.jpg";
+         foto[3] = "Ambientazione.jpg";
 
          return foto[x];
         }
